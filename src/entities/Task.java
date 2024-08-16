@@ -39,6 +39,8 @@ public class Task extends Lesson{
 	// Método
 	@Override
 	public int duration() {
-		return 0;
+		int sum = 0;
+		sum += questionCount * 5 * 60;
+		return sum;
 	}
 }

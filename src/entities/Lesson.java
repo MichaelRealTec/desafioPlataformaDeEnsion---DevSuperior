@@ -14,7 +14,6 @@ public abstract class Lesson {
 		return title;
 	}
 	
-	// Método Construtor
 	public Lesson() {
 		
 	}

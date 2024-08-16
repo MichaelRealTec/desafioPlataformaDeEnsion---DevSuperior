@@ -37,6 +37,8 @@ public class Video extends Lesson {
 	// Método
 	@Override
 	public int duration() {
-		return 0;
+		int sum = 0;
+		sum += seconds;
+		return sum;
 	}
 }
